@@ -1,0 +1,263 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "Good morning",
+        "Good evening",
+        "Hey there"
+      ],
+      "responses": [
+        "Hey !",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?",
+        "Hello! How are you today?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "See you soon",
+        "Catch you later",
+        "I'm leaving now"
+      ],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon.",
+        "Goodbye! Hope to see you soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thank's a lot!",
+        "I appreciate it",
+        "Much appreciated"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "My pleasure",
+        "You're welcome",
+        "No problem!"
+      ]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?",
+        "Can I see your product list?",
+        "What products do you offer?",
+        "What are you selling?"
+      ],
+      "responses": [
+        "We sell coffee and tea",
+        "We have coffee and tea",
+        "Our menu includes a variety of coffees and teas",
+        "We offer a selection of coffee and tea beverages"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?",
+        "What payment methods do you accept?",
+        "Can I use my debit card?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal",
+        "You can pay with credit cards, debit cards, and Paypal",
+        "Our payment options include VISA, Mastercard, and Paypal"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?",
+        "What is the delivery time?",
+        "How quickly can I receive my order?",
+        "When will my order arrive?"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days",
+        "You can expect delivery within 2 to 4 days",
+        "Our standard delivery time is 2 to 4 days"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?",
+        "Make me laugh",
+        "I need a laugh",
+        "Can you tell me something funny?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison.",
+        "Why don't scientists trust atoms? Because they make up everything!",
+        "What do you call fake spaghetti? An impasta!"
+      ]
+    },
+    {
+      "tag": "hours",
+      "patterns": [
+        "What are your opening hours?",
+        "When are you open?",
+        "What time do you close?",
+        "Are you open on weekends?",
+        "What are your business hours?",
+        "Can I visit you after 6 PM?"
+      ],
+      "responses": [
+        "We are open from 9 AM to 6 PM, Monday to Friday.",
+        "Our business hours are 9 AM to 6 PM on weekdays.",
+        "We open at 9 AM and close at 6 PM, from Monday to Friday.",
+        "We are closed on weekends."
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "Where are you located?",
+        "What is your address?",
+        "Where can I find you?",
+        "How do I get to your shop?",
+        "Where is your store?",
+        "Where are you situated?"
+      ],
+      "responses": [
+        "We are located at 123 Main Street, Anytown.",
+        "Our address is 123 Main Street, Anytown.",
+        "You can find us at 123 Main Street, Anytown.",
+        "We are situated at 123 Main Street in the heart of Anytown."
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": [
+        "How can I contact you?",
+        "What is your phone number?",
+        "Can I get your email?",
+        "How do I reach customer support?",
+        "What are your contact details?",
+        "Can you give me your contact info?"
+      ],
+      "responses": [
+        "You can contact us by phone at +21658250125 or email at iheblazhary@gmail.com.",
+        "Reach us at +21658250125 or email iheblazhary@gmail.com.",
+        "Feel free to call us at +21658250125 or email us at iheblazhary@gmail.com.",
+        "For any inquiries, contact us at +21658250125 or iheblazhary@gmail.com."
+      ]
+    },
+    {
+      "tag": "refunds",
+      "patterns": [
+        "What is your refund policy?",
+        "Can I return my order?",
+        "How do I get a refund?",
+        "What if I want to return something?",
+        "Do you offer refunds?",
+        "Can I get my money back?"
+      ],
+      "responses": [
+        "You can request a refund within 30 days of purchase.",
+        "Our refund policy allows returns within 30 days with proof of purchase.",
+        "We offer refunds for items returned within 30 days in their original condition.",
+        "If you're not satisfied, you can return your order within 30 days."
+      ]
+    },
+    {
+      "tag": "order_status",
+      "patterns": [
+        "Where is my order?",
+        "Can I track my order?",
+        "What is the status of my order?",
+        "Has my order shipped?",
+        "When will my order be delivered?",
+        "Is my order on the way?"
+      ],
+      "responses": [
+        "You can track your order using the tracking number sent to your email.",
+        "Check your order status through the link provided in your confirmation email.",
+        "Your order details and tracking information are available in your account.",
+        "You will receive an email with tracking information once your order ships."
+      ]
+    },
+    {
+      "tag": "cancellations",
+      "patterns": [
+        "How do I cancel my order?",
+        "Can I cancel my purchase?",
+        "What is the cancellation policy?",
+        "Is it possible to cancel my order?",
+        "How can I stop my order?",
+        "Can I get a refund if I cancel?"
+      ],
+      "responses": [
+        "You can cancel your order within 24 hours of purchase by contacting our support.",
+        "Orders can be cancelled within 24 hours; please contact us for assistance.",
+        "If you wish to cancel, reach out to our support within 24 hours of placing your order.",
+        "Cancellation is possible within 24 hours, and a full refund will be issued."
+      ]
+    },
+    {
+      "tag": "feedback",
+      "patterns": [
+        "How can I give feedback?",
+        "I want to leave a review.",
+        "Where can I rate your service?",
+        "Can I provide feedback?",
+        "How do I leave a comment?",
+        "Where can I post my opinion?"
+      ],
+      "responses": [
+        "We appreciate your feedback! Please visit our website's feedback section.",
+        "You can leave a review on our website or send us your feedback via email.",
+        "Feel free to rate our service and provide feedback on our site.",
+        "Your opinion matters! Share your thoughts in the feedback section of our website."
+      ]
+    },
+    {
+      "tag": "promotions",
+      "patterns": [
+        "Are there any current promotions?",
+        "Do you have any discounts?",
+        "What are your current deals?",
+        "Tell me about your special offers.",
+        "Are there any sales going on?"
+      ],
+      "responses": [
+        "We currently have a 20% discount on all items for the month of August.",
+        "Check out our latest deals, including buy one, get one half off on select items.",
+        "We have a special promotion: free shipping on orders over $50.",
+        "Our current sale includes a variety of discounts on our most popular products."
+      ]
+    }
+  ]
+}
